@@ -75,12 +75,11 @@ a{
 
 .logo{ 
     position: absolute;
-    top: 35px;
+    top: 28px;
 }
 
 .logo__icon{
     width: 158px;
-    height: 33px;
 }
 
 .menu{
@@ -206,7 +205,7 @@ a{
     margin-right: 1px;
     margin-left: 4px;
     height: 30px;
-    padding-top: 3px; /////
+    padding-top: 3px;
 }
 
 .options__block-text {
@@ -236,13 +235,16 @@ a{
     margin-bottom: 50px;
 }
 
+.games__list {
+    margin-bottom: 104px;
+}
+
 .games__item {
     display: inline-block;
     width: 558px;
     height: 341px;
     position: relative;
     margin-right: 9px;
-    margin-bottom: 104px;
 }
 
 .games__item:last-child{
@@ -317,7 +319,7 @@ a{
 }
 
 .about{
-    margin-bottom: 204px;
+    margin-bottom: 63px;
 }
 
 .about__img{
@@ -345,7 +347,6 @@ a{
     font-weight: 700;
     font-size: 36px;
     color: #FFFFFF;
-    margin-bottom: 39px;
 }
 
 .about__text {
@@ -353,8 +354,7 @@ a{
     font-size: 16px;
     color: #FFFFFF;
     line-height: 168%;
-    margin-top: 37px;
-    margin-bottom: 42px;
+    margin-top: 36px;
     letter-spacing: 0.4px;
 }
 
@@ -370,6 +370,7 @@ a{
     color: #FFFFFF;
     border: 1px solid #FFFFFF;
     text-decoration: none;
+    margin-top: 87px;
 }
 
 .footer {
@@ -380,17 +381,18 @@ a{
 
 .footer .logo{
     position: absolute;
-    top:41px;
+    top: 52px;
 }
 
 .socials {
     position: absolute;
-    margin-left: 565px;
-    margin-top: 37px;
+    right: 261px;
+    top: 52px;
 }
 
-.socials__icon{
-    height: 31px;
+.socials__icon {
+    height: 36px;
+    margin-right: 5px;
 }
 
 .socials__item{
@@ -398,30 +400,30 @@ a{
 }
 
 .footer .menu {
-    margin-left: -102px;
-    margin-top: 8px;
+    margin-left: -133px;
+    margin-top: 19px;
 }
 
-.footer .contacts{
-    top: 38px;
-    right: -11px;
+.footer .contacts {
+    top: 52px;
+    right: 0px;
     font-style: normal;
 }
 
 .footer .contacts__text {
     position: absolute;
     font-weight: 400;
-    font-size: 9px;
-    margin-top: -2px;
+    font-size: 11px;
+    margin-top: -6px;
     color: #9A9A9A;
     right: 0px;
 }
 
 .footer .contacts__links {
     font-weight: 400;
-    font-size: 21px;
-    bottom: -12px;
+    font-size: 26px;
+    bottom: -11px;
     color: #FFFFFF;
-    right: -1px;
+    right: 0px;
     position: relative;
 }

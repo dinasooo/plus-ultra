@@ -334,8 +334,7 @@ a{
 .about__content {
     display: inline-block;
     width: 785px;
-    margin-top: 1px;
-    padding: 40px 80px;
+    padding: 26px 80px;
     margin-left: -140px;
     padding-right: 181px;
     background: linear-gradient(71.43deg, #8F00FF 0%, #148CFF 100%), #212121;
@@ -346,7 +345,7 @@ a{
     font-weight: 700;
     font-size: 36px;
     color: #FFFFFF;
-    margin-top: 0;
+    margin-top: 41px;
     margin-bottom: 0;
 }
 
@@ -356,6 +355,7 @@ a{
     color: #FFFFFF;
     line-height: 168%;
     margin-top: 36px;
+    margin-bottom: 89px;
     letter-spacing: 0.4px;
 }
 

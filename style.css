@@ -334,7 +334,6 @@ a{
 .about__content {
     display: inline-block;
     width: 785px;
-    height: 455px;
     margin-top: 1px;
     padding: 40px 80px;
     margin-left: -140px;
@@ -347,6 +346,8 @@ a{
     font-weight: 700;
     font-size: 36px;
     color: #FFFFFF;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .about__text {
@@ -356,6 +357,11 @@ a{
     line-height: 168%;
     margin-top: 36px;
     letter-spacing: 0.4px;
+}
+
+.about__button {
+    margin-top: 88px;
+    margin-bottom: -44px;
 }
 
 .button--neew {
@@ -370,7 +376,6 @@ a{
     color: #FFFFFF;
     border: 1px solid #FFFFFF;
     text-decoration: none;
-    margin-top: 87px;
 }
 
 .footer {

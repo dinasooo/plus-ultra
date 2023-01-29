@@ -3,17 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
+    <meta name="viewport" content="width=1200px, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/main.css">
     <title>Quiz Box</title>
 </head>
 <body>
     <div class="wrapper">
-        <div class="container">
+        <div class="container container__main">
             <header class="header">
             <div class="logo">
                 <a href="#" class="logo__link">
-                    <img src="img/logo.PNG" alt="лого" class="logo__icon">
+                    <img src="img/logo.png" alt="лого" class="logo__icon">
                 </a>
             </div>
             <nav class="menu">
@@ -22,7 +22,7 @@
                         <a href="" class="menu__link">Главная</a>
                     </li>
                     <li class="menu__item">
-                        <a href="" class="menu__link">Игры</a>
+                        <a href="games.html" class="menu__link">Игры</a>
                     </li>
                     <li class="menu__item">
                         <a href="" class="menu__link">Отзывы</a>
@@ -56,7 +56,7 @@
                     </div>
                     <div class="options__info">
                         <div class="options__subtitle">Музыкальная игра</div>
-                        <div class="options__block">
+                        <div class="options__block-inner">
                         <div class="options-item option__item--line">
                             <div class="options__block-img">
                                 <img src="img/clock-icon.png" alt="иконка часов" class="options__block-img">
@@ -72,7 +72,7 @@
                         </div>
                         <div class="options__text">Равным образом постоянное обеспечение нашей деятельности позволяет оценить значение систем массового участия.</div>
                         <div class="options__button">
-                            <button class="button--new">Смотреть</button>
+                            <button class="button button--new">Смотреть</button>
                         </div>
                     </div>
                 </li>
@@ -82,24 +82,24 @@
                     </div>
                     <div class="options__info">
                         <div class="options__subtitle">Назад в 90-е</div>
-                        <div class="options__block">
-                        <div class="options-item option__item--line">
-                            <div class="options__block-img">
-                                <img src="img/clock-icon.png" alt="иконка часов" class="options__block-img">
+                        <div class="options__block-inner">
+                            <div class="options-item option__item--line">
+                                <div class="options__block-img">
+                                    <img src="img/clock-icon.png" alt="иконка часов" class="options__block-img">
+                                </div>
+                                <div class="options__block-text">90 минут</div>
                             </div>
-                            <div class="options__block-text">90 минут</div>
-                        </div>
-                        <div class="options-item option__item--line">
-                            <div class="options__block-img">
-                                <img src="img/qa-icon.png" alt="иконка диалога" class="options__block-img">
+                            <div class="options-item option__item--line">
+                                <div class="options__block-img">
+                                    <img src="img/qa-icon.png" alt="иконка диалога" class="options__block-img">
+                                </div>
+                                <div class="options__block-text">70 вопросов</div>
                             </div>
-                            <div class="options__block-text">70 вопросов</div>
-                        </div>
                         </div>
                         <div class="options__text">Равным образом постоянное обеспечение нашей деятельности позволяет оценить значение систем массового участия.</div>
                         <div class="options__button">
                         <a href="" class="options__button-link">
-                            <button class="button">Смотреть</button>
+                            <button class="button button--options">Смотреть</button>
                         </a>
                         </div>
                     </div>
@@ -110,7 +110,7 @@
                     </div>
                     <div class="options__info">
                         <div class="options__subtitle">IT-викторина</div>
-                        <div class="options__block">
+                        <div class="options__block-inner">
                         <div class="options-item option__item--line">
                             <div class="options__block-img">
                                 <img src="img/clock-icon.png" alt="иконка часов" class="options__block-img">
@@ -196,58 +196,62 @@
                     рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях. 
                 </div>
                 <div class="about__button">
-                        <button class="button">Подробнее</button>
+                        <button class="button button--about">Подробнее</button>
                 </div>
             </div>
         </section>
             </main>
-            <footer class="footer">
-            <div class="logo">
+            <footer class="footer footer__main">
+                <div class="footer__col">
+                    <div class="logo logo--footer">
                 <a href="#" class="logo__link">
                     <img src="img/logo.PNG" alt="лого" class="logo__icon">
                 </a>
-            </div>
-        <nav class="menu">
-            <ul class="menu__list">
-                <li class="menu__item">
-                    <a href="" class="menu__link">Главная</a>
-                </li>
-                <li class="menu__item">
-                    <a href="" class="menu__link">Игры</a>
-                </li>
-                <li class="menu__item">
-                    <a href="" class="menu__link">Отзывы</a>
-                </li>
-            </ul>
-        </nav>
-        <div class="socials">
-            <ul class="socials__list">
-                <li class="socials__item">
-                    <a href="#" class="socials__link">
-                        <img src="img/telegram.png" alt="telegram" class="socials__icon">
-                    </a>
-                </li>
-                <li class="socials__item">
-                    <a href="#" class="socials__link">
-                        <img src="img/vk.png" alt="vk" class="socials__icon">
-                    </a>
-                </li>
-                <li class="socials__item">
-                    <a href="#" class="socials__link">
-                        <img src="img/f.png" alt="facebook" class="socials__icon">
-                    </a>
-                </li>
-                <li class="socials__item">
-                    <a href="#" class="socials__link">
-                        <img src="img/in.png" alt="instagram" class="socials__icon">
-                    </a>
-                </li>
-            </ul>
-        </div>
-        <address class="contacts">
-            <div class="contacts__text">Бесплатные звонки по России</div>
-            <a href="#" class="contacts__links">8 800 700 30 30</a>
-        </address>
+                    </div>
+                    <nav class="menu">
+                        <ul class="menu__list-footer">
+                            <li class="menu__item-footer">
+                                <a href="" class="menu__link">Главная</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="" class="menu__link">Игры</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="" class="menu__link">Отзывы</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="footer__col footer__col--right">
+                    <div class="socials">
+                        <ul class="socials__list">
+                            <li class="socials__item">
+                                <a href="#" class="socials__link">
+                                    <img src="img/telegram.png" alt="telegram" class="socials__icon">
+                                </a>
+                            </li>
+                            <li class="socials__item">
+                                <a href="#" class="socials__link">
+                                    <img src="img/vk.png" alt="vk" class="socials__icon">
+                                </a>
+                            </li>
+                            <li class="socials__item">
+                                <a href="#" class="socials__link">
+                                    <img src="img/f.png" alt="facebook" class="socials__icon">
+                                </a>
+                            </li>
+                            <li class="socials__item">
+                                <a href="#" class="socials__link">
+                                    <img src="img/in.png" alt="instagram" class="socials__icon">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <address class="contacts contacts--footer">
+                        <div class="contacts__text--footer">Бесплатные звонки по России</div>
+                        <a href="#" class="contacts__links--footer">8 800 700 30 30</a>
+                    </address>
+                </div>    
             </footer>
         </div>
     </div>

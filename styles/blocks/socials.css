@@ -1,0 +1,23 @@
+.socials {
+    margin-right: 74px;
+}
+
+.socials__icon {
+    height: 36px;
+}
+
+.socials__list{
+    display: flex;
+}
+
+.socials__item{
+    margin-right: 10px;
+}
+
+.socials__item:last-child{
+    margin-right: 0;
+}
+
+.socials__inner{
+    margin-right: 74px;
+}

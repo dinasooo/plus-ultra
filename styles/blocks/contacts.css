@@ -1,0 +1,48 @@
+.contacts{
+    margin-top: -5px;
+    font-style: normal;
+}
+
+.contacts__inner {
+    margin-right: 1px;
+    margin-top: -16px;
+}
+
+.contacts__links{
+    color: #FFFFFF;
+    font-size: 26px;
+}
+
+.contacts__graph {
+    font-size: 13px;
+    text-decoration: underline;
+    color: #98A4A8;
+    text-align: right
+  }
+
+.contacts__graph:hover{
+    color: #FFFFFF;
+}
+
+.contacts--footer {
+    font-style: normal;
+}
+
+.contacts__text--footer {
+    font-weight: 400;
+    font-size: 11px;
+    color: #9A9A9A;
+    margin-left: 28px;
+}
+
+.contacts__links--footer {
+    font-weight: 400;
+    font-size: 26px;
+    color: #FFFFFF;
+}
+
+.contacts__text {
+    margin-left: 28px;
+    font-size: 11px;
+    color: #9A9A9A
+}

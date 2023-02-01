@@ -6,8 +6,6 @@
 }
 
 .header__games{
-    margin-top: 35px;
     display: flex;
     justify-content: space-between;
-    margin-bottom: -13px;
 }

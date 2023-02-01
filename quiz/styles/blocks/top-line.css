@@ -1,0 +1,16 @@
+.top-line {
+    justify-content: space-between;
+    min-height: 415px;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    background-image: url(../../img/bg_games.png);
+}
+
+.top-line__title{
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 1;
+    margin-bottom: 117px;
+    margin-top: 106px;
+}

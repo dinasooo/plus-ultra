@@ -1,0 +1,11 @@
+.header{
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 94px;
+}
+
+.header__games{
+    display: flex;
+    justify-content: space-between;
+}

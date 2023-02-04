@@ -19,3 +19,46 @@
 @import url(./blocks/page-content.css);
 @import url(./blocks/offers.css);
 @import url(./blocks/partners.css);
+@import url(./blocks/reviews.css);
+@import url(./blocks/avatar.css);
+@import url(./blocks/separator.css);
+@import url(./blocks/inner-section.css);
+@import url(./blocks/form.css);
+@import url(./blocks/tag.css);
+@import url(./blocks/controls.css);
+@import url(./blocks/graph.css);
+@import url(./blocks/triangle.css);
+
+@keyframes bounce{
+    from{
+        transform: translateY(0);
+    }
+
+    20%{
+        transform: translateY(-30px);
+    }
+
+    35%{
+        transform: translateY(0);
+    }
+
+    55%{
+        transform: translateY(-15px);
+    }
+
+    65%{
+        transform: translateY(0);
+    }
+
+    70%{
+        transform: translateY(-4px);
+    }
+
+    80%{
+        transform: translateY(0);
+    }
+
+    to{
+        opacity: 1;
+    }
+}

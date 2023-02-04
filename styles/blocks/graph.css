@@ -1,0 +1,51 @@
+.graph{
+    justify-content: flex-end;
+    position: relative;
+    display: inline-flex;
+}
+
+.graph:hover .graph__menu{
+    display: block;
+}
+
+.graph__link{
+    margin-bottom: 10px;
+    color: #98A4A8;
+    text-decoration: underline;
+}
+
+.graph:hover .graph__link{
+    color: #FFFFFF;
+}
+
+.graph__menu{
+    position: absolute;
+    background: #CDD1D2;
+    border-radius: 5px;
+    padding: 15px 19px;
+    color: #1E1F20;
+    font-weight: 600px;
+    top: 98%;
+    right: 0;
+    display: none;
+}
+
+.graph__item-bold{
+    font-weight: 700;
+}
+
+.graph__triangle{
+    top: 69%;
+    position: absolute;
+    display: inline-flex;
+    flex-direction: column;
+    border: 10px solid transparent;
+    border-bottom-color: #CDD1D2;
+    display: none;
+    border-top-width: 0px;
+    margin-right: 10px;
+}
+
+.graph:hover .graph__triangle{
+    display: block;
+}

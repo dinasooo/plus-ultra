@@ -21,6 +21,10 @@
     margin-bottom: 30px;
 }
 
+.review__photo{
+    margin-right: 22px;
+}
+
 .review__link{
     display: flex;
     align-items: center;

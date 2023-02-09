@@ -25,27 +25,23 @@
     padding: 15px 19px;
     color: #1E1F20;
     font-weight: 600px;
-    top: 98%;
-    right: 0;
+    top: 100%;
     display: none;
 }
 
-.graph__item-bold{
-    font-weight: 700;
-}
-
-.graph__triangle{
-    top: 69%;
+.graph__menu::before{
+    content: "";
+    right: 0;
+    top: -15%;
     position: absolute;
-    display: inline-flex;
-    flex-direction: column;
     border: 10px solid transparent;
     border-bottom-color: #CDD1D2;
     display: none;
     border-top-width: 0px;
     margin-right: 10px;
+    display: block;
 }
 
-.graph:hover .graph__triangle{
-    display: block;
+.graph__item-bold{
+    font-weight: 700;
 }
